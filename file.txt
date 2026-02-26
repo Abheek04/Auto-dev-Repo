@@ -1,0 +1,18 @@
+Master and Slave Integration:
+=============================================================================================================================
+System requirement for slave machine:
+       * OS : Redhat 9
+       * Instance type: t3.medium/t2.medium - 2 vcpu cores & 4 GB RAM
+       * Hard disk - 10 GB
+
+1. Install Java: 
+sudo su 
+yum install java-21* -y
+
+2. Create user Jenkins and delegate sudo privileges:
+useradd -d /var/lib/jenkins jenkins
+passwd  jenkins
+
+visudo
+root    ALL=(ALL) ALL
+jenkins ALL=(ALL) ALL
