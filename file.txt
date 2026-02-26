@@ -1,5 +1,4 @@
 Master and Slave Integration:
-=============================================================================================================================
 System requirement for slave machine:
        * OS : Redhat 9
        * Instance type: t3.medium/t2.medium - 2 vcpu cores & 4 GB RAM
@@ -14,5 +13,4 @@ useradd -d /var/lib/jenkins jenkins
 passwd  jenkins
 
 visudo
-root    ALL=(ALL) ALL
-jenkins ALL=(ALL) ALL
+Root = Root
