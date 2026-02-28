@@ -1,0 +1,3 @@
+checkout: git checkout is used for switching an branch and also creating an new branch from particular branch.
+
+command: local-main> git fetch origin main       // bring ch
